@@ -1,0 +1,81 @@
+# =========================================
+# REQUERIMIENTOS DEL PROYECTO
+# =========================================
+
+# Crear entorno virtual:
+# python -m venv venv
+
+# Activar entorno virtual:
+# venv\Scripts\activate
+
+# Instalar dependencias:
+# pip install -r requirements.txt
+
+
+# =========================================
+# requirements.txt
+# =========================================
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic[email]
+bcrypt
+python-multipart
+# pymysql (uncomment if using MySQL)
+
+
+# =========================================
+# EJECUTAR LA APLICACIÓN
+# =========================================
+
+# uvicorn src.main:app --reload
+
+
+# =========================================
+# DOCUMENTACIÓN AUTOMÁTICA
+# =========================================
+
+# Swagger UI:
+# http://localhost:8000/docs
+
+# ReDoc:
+# http://localhost:8000/redoc
+
+
+# =========================================
+# DETENER LA APLICACIÓN
+# =========================================
+
+# CTRL + C
+
+
+# =========================================
+# PROBAR LA API
+# =========================================
+
+# Puedes usar:
+# - Swagger
+# - Postman
+# - Insomnia
+# - curl
+
+
+# =========================================
+# EJEMPLOS DE ENDPOINTS
+# =========================================
+
+# Obtener usuarios:
+# GET http://localhost:8000/api/v1/usuarios
+
+# Obtener usuario por ID:
+# GET http://localhost:8000/api/v1/usuarios/1
+
+# Crear usuario:
+# POST http://localhost:8000/api/v1/usuarios
+
+# Actualizar usuario:
+# PUT http://localhost:8000/api/v1/usuarios/1
+
+# Eliminar usuario:
+# DELETE http://localhost:8000/api/v1/usuarios/1
